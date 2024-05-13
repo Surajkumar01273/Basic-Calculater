@@ -1,0 +1,38 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Calculater project</title>
+</head>
+<body>
+     <script src="function.js"></script>
+    <center>
+        <h1>Basic Calculeter</h1>
+        <form>
+            <table border="16px">
+                <tr>
+                    <td>First Number:</td>
+                <td><input type="text" id="value1" name="tvalue1"/>
+                </td></tr>
+                <tr>
+                    <td>Second Number:</td>
+                <td><input type="text" id="value2" name="pvalue1"/></td>
+                </tr>
+                <tr>
+                    <td>
+                <input type="button" id="add" value="add" name="add" onclick="caladd(value1.value,value2.value);"/>
+                <input type="button" id="sub" value="sub" name="sub" onclick="calsub(value1.value,value2.value);"/>
+                </td>
+                <td>
+               
+                <input type="button" id="multi" value="multi" name="multi" onclick="calmulti(value1.value,value2.value);"/>&nbsp;
+                <input type="button" id="div" value="div" name="div" onclick="caldiv(value1.value,value2.value);"/>&nbsp;
+                <input type="reset" id="areset" value="Reset" name="reset"/>
+                </td></tr>
+            </table>
+            
+        </form>
+    </center>
+</body>
+</html>
